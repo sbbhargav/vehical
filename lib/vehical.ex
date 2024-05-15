@@ -32,4 +32,14 @@ defmodule Vehical do
       "vehical auto!"
   """
   def auto(), do: "vehical auto!"
+
+  @doc """
+  Vehical Lorry
+
+  ## Examples
+
+      iex> Vehical.lorry()
+      "vehical Lorry!"
+  """
+  def lorry(), do: "vehical Lorry!"
 end
